@@ -1,0 +1,136 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  font-family: "outfit", sans-serif;
+  color: hsl(30, 10%, 34%);
+}
+
+.recipe-card {
+  background-color: white;
+  width: 55%;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 60px auto;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: "young-serif", serif;
+  color: hsl(24, 5%, 18%);
+  margin: 25px 0;
+  font-size: 43px;
+}
+
+
+.preparation-card {
+    width: 100%;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: hsl(330, 100%, 98%);
+    margin: 25px 0;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 15px;
+}
+
+.label {
+    font-weight: 500;
+    color: black;
+}
+
+.preparation-card ul {
+    list-style: none;
+}
+
+.preparation-card li::before {
+    content: "•";
+    color: hsl(332, 51%, 32%);
+    padding-right: 20px;
+}
+
+.preparation-card li {
+color: hsl(24, 5%, 18%);
+margin-bottom: 5px;
+}
+
+h2 {
+  font-family: "young-serif", serif;
+  font-size: 30px;
+  text-decoration: solid;
+  color: hsl(14, 45%, 36%);
+  margin: 15px 0;
+}
+
+.ingredient-card ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.ingredient-card li::before {
+    content: "•";
+    color: hsl(14, 45%, 36%));
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.ingredient-card li {
+color: hsl(24, 5%, 18%);
+margin-bottom: 5px;
+}
+
+.instructions-card ol {
+    list-style: none;
+   counter-reset: my-counter;
+    padding-left: 0;
+    margin-bottom: 8px;
+    margin-bottom: 20px;  
+}
+
+.instructions-card ol li::before {
+    counter-increment: my-counter;
+    content: counter(my-counter) ".";
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.instructions-card ol li {
+  padding-left: 10px;
+  margin-bottom: 7px;
+   text-indent: -10px;
+}
+
+.nutrition-card p {
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+td {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.value {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+@media screen (max-width:375px) {
+}
