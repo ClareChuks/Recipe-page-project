@@ -63,9 +63,12 @@ h3 {
 color: hsl(24, 5%, 18%);
 margin-bottom: 5px;
 }
+
 .overall-text {
-  margin: 25px 0;
+  margin-left: 20px;
+  margin-right: 20px;
 }
+
 h2 {
   font-family: "young-serif", serif;
   font-size: 30px;
