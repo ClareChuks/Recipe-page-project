@@ -161,6 +161,7 @@ td {
   }
 
   .overall-text {
-    padding: 0 15px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
